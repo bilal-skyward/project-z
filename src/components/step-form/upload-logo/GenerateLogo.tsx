@@ -161,6 +161,7 @@ const GenerateLogo = () => {
             <SvgLogo
               //count={count}
               logoText={Industrydetails.brandName}
+              iconPosition="top"
               // logoColor1={Math.floor(Math.random() * 16777215).toString(16)}
               // logoColor2={Math.floor(Math.random() * 16777215).toString(16)}
               // fontSelection={Math.floor(Math.random() * (1595 - 0 + 1)) + 0}
@@ -175,6 +176,7 @@ const GenerateLogo = () => {
             <SvgLogo
               count={count}
               logoText={Industrydetails.brandName}
+              iconPosition="left"
               // logoColor1={Math.floor(Math.random() * 16777215).toString(16)}
               // logoColor2={Math.floor(Math.random() * 16777215).toString(16)}
               // fontSelection={Math.floor(Math.random() * (1595 - 0 + 1)) + 0}
@@ -188,6 +190,7 @@ const GenerateLogo = () => {
           >
             <SvgLogo
               logoText={Industrydetails.brandName}
+              iconPosition="bottom"
               // logoColor1={Math.floor(Math.random() * 16777215).toString(16)}
               // logoColor2={Math.floor(Math.random() * 16777215).toString(16)}
               // fontSelection={Math.floor(Math.random() * (1595 - 0 + 1)) + 0}
